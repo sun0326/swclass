@@ -25,7 +25,7 @@ class BBang {
 	}
 }
 
-public class Bakery_BBangClass {
+public class Bakery_BBangClass2 {
 	public static void main(String[] args) {
 
 		BBang pizza = new BBang();
