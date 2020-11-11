@@ -4,6 +4,10 @@ public class encapsulation {
 
 	public static void main(String[] args) {
 	/*
+		package	:내방
+		import	:딴방에서 가져오는것 
+
+		
 		oop라하면 캡슐화, 상속, 추상화 , 다형성 
 		1) 캡슐화 : 정보은닉 (정보보호의 개념은아님 , 보이지만 손을댈수없는것 (유리병안에사탕)
 					( 필드와 메소드를 묶어서 )- encapsulation
@@ -14,8 +18,11 @@ public class encapsulation {
 		접근 지정자 //access modifier
 		private		:같은 클래스에서만 접근
 		public		:외부 클래스에서도 접근가능 
-		(default)	:같은 패키지에서 접근
+		(default)	:같은 패키지에서 접근			
+			범위에 제일 넓다. 같은패키지안에서 어디든지 사용할수있음 
 		protected	:상속에서만 
+			
+
 
 	*/				
 	}
