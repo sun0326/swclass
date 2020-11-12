@@ -16,7 +16,6 @@ class Bird extends Animal{
 	}
 	public void move() {
 		System.out.println("움직인다(bird 특성)");	//overriding
-		
 	}
 }
 

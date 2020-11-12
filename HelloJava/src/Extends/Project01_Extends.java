@@ -13,7 +13,10 @@ public class Project01_Extends {	// 상속
  		class bird extends animal{
  			//String str = "hello_world";
  		}
- 	
+ 		
+ 		
+ 	//4) 다중상속 안됨 !  => diamond problem 이 생겨서 안됨 
+ 			//
 */	
 	
 }

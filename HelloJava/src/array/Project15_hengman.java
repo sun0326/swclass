@@ -15,13 +15,16 @@ public class Project15_hengman {
 		String [] apple = "apple".split("");
 		String [] answer = {"_","_","_","_","_"};
 		
-		for (int i = 0; i <5; i++) {
+		while(true) {
 			System.out.println("_____");
 			System.out.print("예상글자입력:");
 			String alp = sc.nextLine();
-			if(apple[i].equals(alp)) {
-				answer[i] =alp;
-					System.out.print(answer[i]);
+			for (int j = 0; j < answer.length; j++) {
+				if(apple[j].equals(alp)) {
+					answer[j] =alp;
+//					System.out.print(answer[i]);
+				
+			}
 				}
 			}
 		}
