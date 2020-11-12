@@ -16,14 +16,14 @@ public class Project02_2형식 {	// 메소드 2형식	=> 인자있음
 		System.out.print("년도입력: ");
 		int i = sc.nextInt();
 		System.out.print("차비: ");
-		int chabi =sc.nextInt();
-		kajayoon(i,10000); //메소트 호출문 2형식 // 괄호안에 인자(인수,argument)를 받는다 
-	
+		int chabi = sc.nextInt();
+		kajayoon(i, 10000); // 메소트 호출문 2형식 // 괄호안에 인자(인수,argument)를 받는다
+
 	}// main-end
 
-	private static void kajayoon(int i, int chabi) {	//메소드 정의문
-		System.out.println("차비"+chabi+"원 받음");
-		
+	private static void kajayoon(int i, int chabi) { // 메소드 정의문
+		System.out.println("차비" + chabi + "원 받음");
+
 		if (i % 4 == 0) {
 			if (i % 100 == 0 && i % 400 != 0) {
 				System.out.println(i + "년은 평년");
@@ -33,7 +33,5 @@ public class Project02_2형식 {	// 메소드 2형식	=> 인자있음
 		} else {
 			System.out.println(i + "년은 평년");
 		}
-		
 	}
-
 }

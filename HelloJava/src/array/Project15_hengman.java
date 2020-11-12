@@ -13,13 +13,16 @@ public class Project15_hengman {
 		
 		Scanner sc = new Scanner(System.in);
 		String [] apple = "apple".split("");
+		String [] answer = {"_","_","_","_","_"};
 		
-		for (int i = 0; i <13; i++) {
+		for (int i = 0; i <5; i++) {
 			System.out.println("_____");
 			System.out.print("예상글자입력:");
-			String a = sc.nextLine();
-			if(apple[i].equals(a)) {
-				System.out.println([i]);
+			String alp = sc.nextLine();
+			if(apple[i].equals(alp)) {
+				answer[i] =alp;
+					System.out.print(answer[i]);
+				}
 			}
 		}
 		
