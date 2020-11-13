@@ -1,4 +1,4 @@
-package Class_Object4_Tostring;
+package String;
 
 public class Project01_charat {
 

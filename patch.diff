@@ -1,0 +1,80 @@
+From d66aa8f07f04d2132a72531c637676053cd5d981 Mon Sep 17 00:00:00 2001
+From: SSUN2 <2210211@naver.com>
+Date: Fri, 13 Nov 2020 02:43:56 +0900
+Subject: [PATCH] hengman
+
+---
+ .../src/array/Project15_hengman_method.java   | 61 +++++++++++++++++++
+ 1 file changed, 61 insertions(+)
+ create mode 100644 HelloJava/src/array/Project15_hengman_method.java
+
+diff --git a/HelloJava/src/array/Project15_hengman_method.java b/HelloJava/src/array/Project15_hengman_method.java
+new file mode 100644
+index 0000000..a0014a7
+--- /dev/null
++++ b/HelloJava/src/array/Project15_hengman_method.java
+@@ -0,0 +1,61 @@
++package array;
++
++import java.util.Scanner;
++
++public class Project15_hengman_method {
++
++	public static void main(String[] args) {
++		// apple
++
++		Scanner sc = new Scanner(System.in);
++
++		String moonja = "apple";
++		String[] bae = moonja.split("");
++		String[] answer = { "_", "_", "_", "_", "_" };
++
++		int count = 0;
++		int sw = 0;
++		while (true) {
++			System.out.println(count + 1 + "번째 시도입니다.");
++			System.out.print("문자를 입력하세요 :");
++
++			String alp = sc.nextLine();
++			count++;
++			sw = Gocheck(alp, bae, answer,sw);		// 정답확인 sw 반환받기!  
++			
++			Goprint(answer);		// 입력값출력 (answer배열 출ㄹ력)ㄴ
++			
++			if (sw == answer.length) {
++				System.out.println("==정답입니다==");
++				break;
++			}
++			if (count == 13) {
++				System.out.println("입력횟수 초과");
++				break;
++			}
++
++		}
++	}
++
++	private static void Goprint(String[] answer) {
++		for (int i = 0; i < answer.length; i++) {
++			System.out.print(answer[i]);
++		}
++		System.out.println();
++		
++	}
++
++	private static int Gocheck(String alp, String[] bae, String[] answer, int sw) {
++		for (int i = 0; i < answer.length; i++) {
++			if (alp.equals(answer[i])) {
++				System.out.println("이미있는글씨");
++				break;
++			} else if (bae[i].equals(alp)) {
++				answer[i] = alp;
++				sw++;
++			}	
++		}
++		return sw;
++
++	}
++}
+-- 
+2.26.2.windows.1
+
