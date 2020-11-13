@@ -47,7 +47,6 @@ public class Project011_inheritance {
 		
 //		janyu j2 = b2; // 안됨
 //		janyu j2 = new janyu;
-		// b2는 부모라서 ?
 		janyu j2 = (janyu)b2;  // 이렇게쓰면됨 
 					// 캐스팅연산자를 사용해서 자녀인것을 알려줘야 사용할수있음 
 		

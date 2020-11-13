@@ -14,17 +14,17 @@ public class Charat {
 		//======================================================================
 		
 	      int[] viras = {'A', 'A', 'A', 'A'};
-	      
+	      				// int 배열에 문자를 넣으면 아스키코드로 입력됨 
 	      viras[2]++;
 	      
 	      for (int i = 0; i < viras.length; i++) {
-	         System.out.printf("%03d ", viras[i]);
-	      }
+	         System.out.printf("%03d ", viras[i]);		//3자리숫자 아스키코드번호로 출력 
+	      }							
 	      
 	      System.out.println("");
 	      
 	      for (int i = 0; i < viras.length; i++) {
-	         System.out.printf("%c ", viras[i]);
+	         System.out.printf("%c ", viras[i]);		//%c문자로출력 
 	      }
 	   }
 		
