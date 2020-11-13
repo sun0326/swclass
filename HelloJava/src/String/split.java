@@ -1,6 +1,6 @@
 package String;
 
-public class Project02_split {
+public class split {
 
 	public static void main(String[] args) {
 		/*
