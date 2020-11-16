@@ -29,7 +29,7 @@ public static void main(String[] args) {
 	System.out.println(soo1/soo2);
 	} catch (Exception e){	// catch 부분 없이 에러가 날경우 프로그램에서 에러메세지가 뜸 
 		System.out.println("에러났댜  " + e); //e로 에러메세지를 받음 !
-	} finally {
+	} finally {// 생략가능
 		System.out.println("goood :)");
 	}
 	
