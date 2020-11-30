@@ -43,7 +43,7 @@ public class Bakery_BBangClass {
 		
 		System.out.println(pizza);
 		
-/*		
+		
 		pizza.setName("피자빵");
 		pizza.setMoney(1000);
 		
@@ -58,7 +58,7 @@ public class Bakery_BBangClass {
 		System.out.println(soboru.getMoney());
 		
 		pizza.eat();
-		soboru.eat();*/
+		soboru.eat();
 	}
 }
 
