@@ -77,8 +77,8 @@ public class AAA extends JFrame {
 				setVisible(false);//지금창 안보이게
 				String id=txtID.getText(); ////////////////
 				String pw=txtPW.getText(); 
-//				new BBB(id,pw).setVisible(true);
-				new FFF(id,pw).setVisible(true);
+				new BBB(id,pw).setVisible(true);
+//				new FFF(id,pw).setVisible(true);
 				//1_ FFF 는  textField 하나만들고 시작
 				//2_ AAA 에서 빨간줄나오면 change..선택   -> 그러면 FFF 자동고쳐진다
 				//3_ 이때 FFF에서 textField.setText(id+","+pw)추가

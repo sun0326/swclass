@@ -26,8 +26,7 @@ public static void main(String[] args) {
 		System.out.println(e.getMessage());	//by zero -> 0으로 나눴댜 
 		//c: errno 4069 자바: message
 	} finally {
-		System.out.printl
-		n("goood :)");
+		System.out.println("goood :)");
 		//Db접속시 close , 파일 close 
 	}
 	
