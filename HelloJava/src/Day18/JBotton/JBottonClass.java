@@ -26,6 +26,9 @@ public class JBottonClass extends JFrame {
 	JButton jb6 = new JButton("냠냠");
 	
 	
+	
+	
+
 	public JBottonClass() { //생성자 start
 		getContentPane().setBackground(Color.BLACK); //배경색
 		getContentPane().setLayout(new FlowLayout()); 
@@ -37,21 +40,26 @@ public class JBottonClass extends JFrame {
 		getContentPane().add(jb5);
 		getContentPane().add(jb6);
 	
+		setSize(500,500);
+		setTitle("타이틀ㄹㄹ");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
 	}
 	
 	public static void main(String[] args) {
 		
 		JBottonClass jbc1 = new JBottonClass(); //먼저 생성자로 찾아감
 		
-		jbc1.setTitle("버튼이야"); //객체.메소드
-		jbc1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		//이거 안하면 x버튼으로 창문을 닫아도 프레임은 종료되었지만 실행프로그램은 종료 안됨
-		//이걸 써주면 프레임 닫고 + 실행 프로그램 종료
-		
-		
-				//	가로	세로
-		jbc1.setSize(150,200); //화면의 사이즈출력
-		jbc1.setVisible(true); //만든 화면을 띄운다
+//		jbc1.setTitle("버튼이야"); //객체.메소드
+//		jbc1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		//이거 안하면 x버튼으로 창문을 닫아도 프레임은 종료되었지만 실행프로그램은 종료 안됨
+//		//이걸 써주면 프레임 닫고 + 실행 프로그램 종료
+//		
+//		
+//		//	가로	세로
+//		jbc1.setSize(150,200); //화면의 사이즈출력
+//		jbc1.setVisible(true); //만든 화면을 띄운다
+//		
 		
 		
 	}//main_end
